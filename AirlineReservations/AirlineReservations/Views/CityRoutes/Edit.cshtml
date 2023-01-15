@@ -1,0 +1,63 @@
+﻿@model AirlineReservations.Models.CityRoute
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<br />
+<br />
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="text-center">Editare linie aeriană Oraș Ruta</h5>
+                </div>
+
+                    <div class="card-body">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <input type="hidden" asp-for="RouteId" />
+                            <div class="form-group">
+                                <label asp-for="RouteFromCity" class="control-label"></label>
+                                <input asp-for="RouteFromCity" class="form-control" />
+                                <span asp-validation-for="RouteFromCity" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="RouteToCity" class="control-label"></label>
+                                <input asp-for="RouteToCity" class="form-control" />
+                                <span asp-validation-for="RouteToCity" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="AirlineId" class="control-label"></label>
+                                <select asp-for="AirlineId" class="form-control" asp-items="ViewBag.AirlineId"></select>
+                                <span asp-validation-for="AirlineId" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                               
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <input type="submit" value="Actualizare" class="btn btn-warning mt-3" />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a class="btn btn-secondary mt-3" asp-action="Index">Back to Page</a>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </form>
+                    </div>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

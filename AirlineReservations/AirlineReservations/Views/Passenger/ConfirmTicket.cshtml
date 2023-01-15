@@ -1,0 +1,104 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using AirlineReservations.Areas.Identity.Data
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@model AirlineReservations.ViewModel.ConfirmViewModel
+
+<br />
+
+<div class="container">
+    <div class="col-md-12">
+
+        <div class="row">
+
+            <div class="col-md-6 offset-3">
+
+                <div class="card">
+                    <div class="card-header">
+                        <p>
+                            Companie aeriană Oraș Ruta de la : <b name="fromcity"> @Model.RouteFromCity</b> La <b> @Model.RoutetoCity</b>
+                            <br />
+                            Plecare din țară  : <b> @Model.TicketFrom</b> La <b> @Model.TicketTo</b>
+                            <br />
+                            Data de începere a călătoriei: <b>@Model.TimeFrom</b>
+                            <br />
+                            Data de încheiere a călătoriei: <b>@Model.TimeTo</b>
+                        </p>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <p>
+                            Clasa/Tip : @Model.PassangerClass
+                        </p>
+                        <form action="/Passenger/UserConfirmTicket" method="post">
+                            <input type="hidden" name="id" value="@Model.ticketid" />
+                            <label> Prețul unui singur drum :</label>
+                            <input type="radio" required name="Price" value="@Model.singlePrice" />@Model.singlePrice $
+
+                            <label style="margin-left:50px"> preț bidirecțional :</label>
+                            <input type="radio" name="Price" value="@Model.TwoWayPrice" /> @Model.TwoWayPrice $
+                            <br />
+                            <br />
+                            <div class="card-header">
+                                <h5 class="text-center">Formular pasager</h5>
+                            </div>
+                            <div class="row">
+
+                                <div class="col">
+                                    <label>Nume :</label>
+
+                                    <input required type="text" class="form-control" placeholder="Numele pasagerului" name="Name" autocomplete="off" />
+
+                                </div>
+                                <div class="col">
+                                    <label>Telefon </label>
+                                    <input required type="number" class="form-control" placeholder="Număr de telefon mobil" name="PhoneNumber" autocomplete="off" />
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label>Oraș :</label>
+                                    <input required type="text" class="form-control" placeholder="Oraș de pasageri" name="City" autocomplete="off" />
+
+                                </div>
+                                <div class="col">
+                                    <label>Adresa</label>
+                                    <input required type="text" class="form-control" placeholder="Adresa pasagerului" name="Adress" autocomplete="off" />
+
+                                </div>
+                                
+                            </div>
+                            <label>Scaune :</label>
+                            <input required type="number" class="form-control mb-3" min="1" placeholder="Scaun pasager luat" name="Seat" />
+
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                <input type="submit" class="btn btn-warning" value="Confirmați biletul" />
+                            }
+                            else
+                            {
+                            <h4 class="text-warning">Vă rugăm să semnați mai întâi, apoi puteți continua</h4>
+                            }
+
+
+
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</div>

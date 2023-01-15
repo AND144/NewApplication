@@ -1,0 +1,58 @@
+﻿@model AirlineReservations.Models.CityRoute
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<br />
+<br />
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-5  offset-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Crearea unei noi rute aeriene pentru oraș</h5>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="RouteFromCity" class="control-label"></label>
+                                <input asp-for="RouteFromCity" placeholder="Companie aeriană Oraș Ruta de la" class="form-control" />
+                                <span asp-validation-for="RouteFromCity" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="RouteToCity" class="control-label"></label>
+                                <input asp-for="RouteToCity" placeholder="Companie aeriană Oraș Ruta către" class="form-control" />
+                                <span asp-validation-for="RouteToCity" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="AirlineId" class="control-label"></label>
+                                <select asp-for="AirlineId" class="form-control" asp-items="ViewBag.AirlineId"></select>
+                            </div>
+                            <div class="form-group">
+                               
+
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <input type="submit" value="Creați" class="btn btn-success mt-3" />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a class="btn btn-secondary mt-3" asp-action="Index">Back to Page</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

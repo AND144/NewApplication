@@ -1,0 +1,92 @@
+﻿@model AirlineReservations.Models.Tickets
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<br />
+<br />
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <div class="card">
+
+                    <div class="card-header">
+                        <h5 class="text-center">Creați un nou bilet de avion</h5>
+                    </div>
+                    <div class="card-body">
+                       
+                            <form asp-action="Create">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group">
+                                    <label asp-for="TicketFrom" class="control-label"></label>
+                                    <input asp-for="TicketFrom" placeholder="Țara companiei aeriene Bilet de la" class="form-control" />
+                                    <span asp-validation-for="TicketFrom" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="TicletTo" class="control-label"></label>
+                                    <input asp-for="TicletTo" placeholder="Țara în care compania aeriană Bilet către" class="form-control" />
+                                    <span asp-validation-for="TicletTo" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="TimeFrom" class="control-label"></label>
+                                    <input asp-for="TimeFrom" placeholder="Ora de plecare a biletului De la" class="form-control" />
+                                    <span asp-validation-for="TimeFrom" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="TimeTo" class="control-label"></label>
+                                    <input asp-for="TimeTo"  placeholder="Ora de sosire a biletului Până la" class="form-control" />
+                                    <span asp-validation-for="TimeTo" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="TotalSeata" class="control-label"></label>
+                                    <input asp-for="TotalSeata" placeholder="Numărul total de locuri în compania aeriană " class="form-control" />
+                                    <span asp-validation-for="TotalSeata" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="SinglePrice" class="control-label"></label>
+                                    <input asp-for="SinglePrice" placeholder="Bilet Single Way Preț $" class="form-control" />
+                                    <span asp-validation-for="SinglePrice" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="TwoWaysPrice" class="control-label"></label>
+                                    <input asp-for="TwoWaysPrice" placeholder="Preț bilet dus-întors $" class="form-control" />
+                                    <span asp-validation-for="TwoWaysPrice" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="AirlineID" class="control-label"></label>
+                                    <select asp-for="AirlineID" class="form-control" asp-items="ViewBag.AirlineID"></select>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="ClassTypeID" class="control-label"></label>
+                                    <select asp-for="ClassTypeID" class="form-control" asp-items="ViewBag.ClassTypeID"></select>
+                                </div>
+                                <div class="form-group">
+                                   
+
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <input type="submit" value="Creați" class="btn btn-success mt-3" />
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a class="btn btn-secondary mt-3" asp-action="Index">Back to Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                       
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

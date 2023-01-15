@@ -1,0 +1,69 @@
+﻿@model IEnumerable<AirlineReservations.Models.CityRoute>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<br />
+<h5 class="text-center">
+    Lista liniilor aeriene Ruta orașului
+</h5>
+<br />
+<div class="container">
+    <div class="col-md-12">
+
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-success" asp-action="Create">Creați un nou</a>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-hover table-bordered">
+                            <thead>
+                                <tr class="text-center">
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.RouteFromCity)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.RouteToCity)
+                                    </th>
+                                    <th>
+                                        <label>Numele companiei aeriene</label>
+                                    </th>
+                                    <th>Acțiune</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="text-center">
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.RouteFromCity)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.RouteToCity)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Airline.AirlineName)
+                                        </td>
+                                        <td>
+                                            <a asp-action="Edit" class="btn btn-primary" asp-route-id="@item.RouteId">Editați</a> 
+
+                                            <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.RouteId">Ștergeți</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+

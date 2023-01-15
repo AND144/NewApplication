@@ -1,0 +1,50 @@
+﻿@model AirlineReservations.Models.BookingClass
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<br />
+<br />
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-6 offset-2">
+                <div class="card">
+
+                    <div class="card-header">
+                        <h5 class="text-center">Vrei să o ștergi Shure?</h5>
+                    </div>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-sm-3">
+                                @Html.DisplayNameFor(model => model.ClassTpye)
+                            </dt>
+                            <dd class="col-sm-7">
+                                @Html.DisplayFor(model => model.ClassTpye)
+                            </dd>
+                        </dl>
+                        <hr />
+                        <form asp-action="Delete">
+                           
+                           
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <input type="hidden" asp-for="Id" />
+                                    <input type="submit" value="șterge" class="btn btn-danger mt-3" />
+                                </div>
+                                <div class="col-md-4">
+                                    <a class="btn btn-secondary mt-3" asp-action="Index">Back to Page</a>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

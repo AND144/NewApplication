@@ -1,0 +1,58 @@
+﻿@model AirlineReservations.Models.Airline
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<br />
+<br />
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-6 offset-2">
+                <div class="card">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="text-center">Ești sigur că vrei să o ștergi?</h4>
+                        </div>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-sm-5">
+                                    @Html.DisplayNameFor(model => model.Airlinecode)
+                                </dt>
+                                <dd class="col-sm-7">
+                                    @Html.DisplayFor(model => model.Airlinecode)
+                                </dd>
+                                <dt class="col-sm-5">
+                                    @Html.DisplayNameFor(model => model.AirlineName)
+                                </dt>
+                                <dd class="col-sm-7">
+                                    @Html.DisplayFor(model => model.AirlineName)
+                                </dd>
+                            </dl>
+                            <div>
+                                <hr />
+                                <form asp-action="Delete">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <input type="hidden" asp-for="Id" />
+                                            <input type="submit" value="Șterge" class="btn btn-danger mt-3" />
+                                        </div>
+                                        <div class="col-md-4">
+                                            <a class="btn btn-secondary mt-3" asp-action="Index">Back to Page</a>
+                                        </div>
+                                    </div>
+                                    
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

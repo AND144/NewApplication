@@ -1,0 +1,201 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AirlineReservations
+build_property.RootNamespace = AirlineReservations
+build_property.ProjectDir = C:\Users\dania\OneDrive\Desktop\reservation\Reservation-main\AirlineReservations\AirlineReservations\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dania\OneDrive\Desktop\reservation\Reservation-main\AirlineReservations\AirlineReservations
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Admin/AllOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxsT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Admin/CancelOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FuY2VsT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Admin/ConfirmOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29uZmlybU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Admin/PendingOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGVuZGluZ09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Airlines/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlybGluZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Airlines/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlybGluZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Airlines/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlybGluZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Airlines/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlybGluZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/BookingClasses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0NsYXNzZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/BookingClasses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0NsYXNzZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/BookingClasses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0NsYXNzZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/BookingClasses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0NsYXNzZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/CityRoutes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVJvdXRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/CityRoutes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVJvdXRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/CityRoutes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVJvdXRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/CityRoutes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVJvdXRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Passenger/Airline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2VyXEFpcmxpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Passenger/BookingTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2VyXEJvb2tpbmdUaWNrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Passenger/CityAirlineRoute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2VyXENpdHlBaXJsaW5lUm91dGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Passenger/ConfirmTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2VyXENvbmZpcm1UaWNrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Passenger/TicketConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2VyXFRpY2tldENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Passenger/UserHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFzc2VuZ2VyXFVzZXJIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Tickets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Tickets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Tickets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dania/OneDrive/Desktop/reservation/Reservation-main/AirlineReservations/AirlineReservations/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hb7ea5m4ti

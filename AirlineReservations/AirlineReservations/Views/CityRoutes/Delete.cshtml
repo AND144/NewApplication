@@ -1,0 +1,62 @@
+﻿@model AirlineReservations.Models.CityRoute
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<br />
+<br />
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-6 offset-2">
+                <div class="card">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Ești sigur că vrei să o ștergi?</h5>
+                        </div>
+                        <div class="card-body">
+                            
+                                <dl class="row">
+                                    <dt class="col-md-5">
+                                        @Html.DisplayNameFor(model => model.RouteFromCity)
+                                    </dt>
+                                    <dd class="col-md-7">
+                                        @Html.DisplayFor(model => model.RouteFromCity)
+                                    </dd>
+                                    <dt class="col-md-5">
+                                        @Html.DisplayNameFor(model => model.RouteToCity)
+                                    </dt>
+                                    <dd class="col-md-7">
+                                        @Html.DisplayFor(model => model.RouteToCity)
+                                    </dd>
+                                    <dt class="col-md-5">
+                                        @Html.DisplayNameFor(model => model.Airline)
+                                    </dt>
+                                    <dd class="col-md-7">
+                                        @Html.DisplayFor(model => model.Airline.AirlineName)
+                                    </dd>
+                                </dl>
+                           
+                            <hr />
+                            <form asp-action="Delete">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <input type="hidden" asp-for="RouteId" />
+                                        <input type="submit" value="Ștergeți" class="btn btn-danger mt-3" />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a class="btn btn-secondary mt-3" asp-action="Index">Back to Page</a>
+                                    </div>
+                                </div>
+                            </form>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

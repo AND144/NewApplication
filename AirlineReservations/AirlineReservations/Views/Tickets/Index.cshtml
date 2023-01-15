@@ -1,0 +1,103 @@
+﻿@model IEnumerable<AirlineReservations.Models.Tickets>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<br />
+<br />
+<h5 class="text-center">
+    Lista de bilete de avion
+</h5>
+<br />
+<div class="container">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+
+                    <div class="card-header">
+                        <a class="btn btn-success mb-2" asp-action="Create">Creați un nou</a>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-hover table-bordered">
+                            <thead >
+                                <tr class="text-center">
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TicketFrom)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TicletTo)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TimeFrom)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TimeTo)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TotalSeata)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.SinglePrice)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TwoWaysPrice)
+                                    </th>
+                                    <th>
+                                        <label>Numele companiei aeriene</label>
+                                    </th>
+                                    <th>
+                                        <label>Companie aeriană Tipul de bilet</label>
+                                    </th>
+                                    <th>Acțiune</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="text-center">
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TicketFrom)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TicletTo)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TimeFrom)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TimeTo)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TotalSeata)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.SinglePrice)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TwoWaysPrice)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Airline.AirlineName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.bookingClass.ClassTpye)
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Editați</a> 
+
+                                            <a class="btn btn-danger" asp-controller="Tickets" asp-action="Delete" asp-route-id="@item.Id">Ștergeți</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

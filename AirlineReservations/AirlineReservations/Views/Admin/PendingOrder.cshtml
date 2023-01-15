@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewData["Title"] = "PendingOrder";
+}
+
+<br />
+<br />
+<div class="container">
+    <div class="col-md-12">
+        <div class="card">
+
+            <div class="card-header">
+                <h5 class="text-center">Toate comenzile în așteptare ale clienților</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr class="text-center">
+                            <th>
+                                Numele pasagerului
+                            </th>
+
+                            <th>
+                                Numele companiei aeriene
+                            </th>
+                            <th>Plecare din oraș Țara</th>
+                            <th>Sosire în oraș Țara</th>
+                            <th>Preț bilet</th>
+                            <th>
+                                Plecare din țară
+                            </th>
+                            <th>Sosire în țară</th>
+                            <th>Bilet Data Ora</th>
+                            <th>Stare</th>
+                            <th>Acțiune</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="text-center">
+
+                                <td>@item.UserName</td>
+
+                                <td>@item.AirlineName</td>
+                                <td>@item.CityFrom</td>
+                                <td>@item.cityTo</td>
+                                <td>@item.TicketPrice $</td>
+                                <td>@item.TicketFrom</td>
+
+                                <td>@item.TicketTo</td>
+                                <td>@item.TicketTimeTo</td>
+                                <td>@item.Status</td>
+                                <td>
+                                    <a class="btn btn-warning" asp-action="ConfirmTicket" asp-route-id="@item.OrderId">Confirmați biletul</a>
+
+                                    </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
